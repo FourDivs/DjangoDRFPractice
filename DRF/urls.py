@@ -17,7 +17,8 @@ from django.contrib import admin
 from django.urls import path
 # from restApp.views import student_detail, student_list
 # from restApp.views_class_based import StudentList, StudentDetail
-from restApp.views_mixins import StudentList, StudentDetail
+# from restApp.views_mixins import StudentList, StudentDetail
+from restApp.views_generic_api_views import StudentList, StudentDetail
 
 urlpatterns = [
     path('admin/', admin.site.urls),
