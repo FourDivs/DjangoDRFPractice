@@ -1,8 +1,4 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: osx-arm64
 asgiref==3.4.1
-ca-certificates==2021.5.30
 django==3.2.7
 django-environ==0.4.5
 djangorestframework==3.12.4
